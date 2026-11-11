@@ -1,0 +1,14 @@
+{
+  "name": "sitename-vendor-marketplace-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Phase 1 prototype: Kenyan wedding vendor marketplace (zero dependencies, Node 22.13+)",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "seed": "node scripts/seed.js",
+    "start": "node server.js",
+    "test": "node --test --no-warnings test/*.test.js",
+    "approve": "node scripts/approve.js"
+  }
+}
